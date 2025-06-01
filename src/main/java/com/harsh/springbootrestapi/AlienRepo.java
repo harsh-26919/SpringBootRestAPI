@@ -1,4 +1,6 @@
-import com.harsh.springmvcboot.Model.Aliens;
+package com.harsh.springbootrestapi;
+
+import com.harsh.springbootrestapi.Model.Aliens;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

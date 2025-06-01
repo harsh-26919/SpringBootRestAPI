@@ -1,4 +1,4 @@
-package com.harsh.springmvcboot.Model;
+package com.harsh.springbootrestapi.Model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -12,10 +12,10 @@ public class Aliens
 
     public Aliens(){}
 
-//    public Aliens(String aname, int aid) {
-//        this.aname = aname;
-//        this.aid = aid;
-//    }
+    public Aliens(String aname, int aid) {
+        this.aname = aname;
+        this.aid = aid;
+    }
 
     public int getAid() {
         return aid;
